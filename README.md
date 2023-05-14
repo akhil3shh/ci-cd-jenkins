@@ -9,4 +9,4 @@ Create a Dockerfile using node-alpine as the parent image, copy all the source f
 
 Back to Jenkins, configure the job by adding the build steps; enable GitHub hook trigger for GITScm polling and configuring GitHub by adding a webhook for automatic job scheduling if a trigger is detected.
 
-Finally, to check everything is working as expected head towards http://ip-address-of-your-aws-instance:8000 !
+Finally, to check everything is working as expected head towards http://*ip-address-of-your-aws-instance*:8000 !
